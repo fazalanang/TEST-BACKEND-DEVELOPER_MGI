@@ -32,8 +32,13 @@ const stok_produk = [
 
 let hasil = [
     {
-        nama_produk: produk[0,1].nama_produk,
-        total_stock: stok_produk[0,1,2,3].qty
+        nama_produk: produk[0].nama_produk,
+        total_stock: stok_produk[0].qty + stok_produk[1].qty
+
+    },
+    {
+        nama_produk: produk[1].nama_produk,
+        total_stock: stok_produk[2].qty + stok_produk[3].qty
 
     }
 ]
